@@ -9,9 +9,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val human = Human("高千穂", 50,  "趣味")      // 名前を高千穂、年齢50歳で、Humanのインスタンスを作る
-        human.say()  // （ログ出力）
-        human.think()
+        val human1 = Human("高千穂", 50, "趣味")
+        human1.say()  // （ログ出力）
+        human1.think()  // （ログ出力）
+
+        val human2 = Human("産業", 20, "趣向")
+        human2.say()
+        human2.think()
 
 
 /*
